@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header class="row">
+            <div class="row">
+                <img class="col-lg-3" src="../img/FCEFyN-negro_tagline.png" alt="Logo f" class="header__logo">
+                <h1 class="titles col-lg-7" id="Hheader">HORARIOS FACULTAD</h1>
+            </div>
+            <nav class="container">
+                <ul class="nav__menu">
+                    <a href="../index.html" id="no_a">
+                        <li>Inicio</li>
+                    </a>
+                    <a href="./clasesPrimerSem.html" id="no_a">
+                        <li>Clases Primer Semestre</li>
+                    </a>
+                    <a href="./clasesSegundoSem.html" id="no_a">
+                        <li>Clases Segundo Semestre</li>
+                    </a>
+                    <a href="./examenes.html" id="no_a">
+                        <li>Examenes</li>
+                    </a>
+                    <a href="./contacto.html" id="no_a">
+                        <li>Contacto</li>
+                    </a>
+                </ul>
+            </nav>
+            <br>
+        </header>
+        <section class="row">
+            <article>
+                <h3 class="titles">Dejanos tu mensaje</h3>
+                <form action="#">
+                    <label for="Nombre">Nombre y Apellido: </label>
+                    <input type="text"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="aaa@unc.edu.ar ó aaa@mi.unc.edu.ar" name="email"><br>
+                    <label for="Mensaje"> Mensaje:</label><br>
+                    <textarea></textarea><br>
+                    <label for="Superpos">¿Tu mensaje es por una superposicion de horarios?: </label>
+                    <input type="checkbox" name="superpos" value="1"><br>
+                    <label for="Nombre">¿Eres alumno o docente?</label>
+                    <select name="rango" id="rango"> 
+					<option value="alumno">Alumno</option>
+					<option value="docente">Docente</option>
+				</select><br><br><br>
+                    <div>
+                        <input type="submit" value="ENVIAR MENSAJE">
+                        <input type="reset" value="LIMPIAR MENSAJE">
+                    </div>
+                </form>
+            </article>
+        </section>
+        <footer class="row">
+            <img src="../img/FCEFyN-negro_tagline.png" alt="Logo f" class="footer__logo">
+            <p>© 2021 Facultad de Ciencias Exactas, Físicas y Naturales. Todos los derechos reservados</p>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+
+</html>
