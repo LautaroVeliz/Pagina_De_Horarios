@@ -2,12 +2,6 @@
     scroll-behavior: smooth;
 }
 
-#no_a {
-    text-decoration: none;
-    outline: none;
-    color: black;
-}
-
 header {
     background-color: #6AA84F;
     text-align: center;
@@ -87,6 +81,10 @@ section {
     }
 }
 
+#index_section {
+    padding-bottom: 324px;
+}
+
 footer {
     background-color: #6AA84F;
     display: flex;
@@ -108,9 +106,32 @@ iframe {
     height: 315px;
 }
 
+.no__a {
+    text-decoration: none;
+    outline: none;
+    color: black;
+}
+
 @media (max-width: 768px) {
-    iframe {
-        width: 100%;
+    #Hheader {
+        position: absolute;
+        padding: 20px 0px;
+    }
+    .header__logo {
+        opacity: 30%;
+    }
+    .footer__logo {
+        width: 20%;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 769) {
+    #Hheader {
+        position: absolute;
+        padding: 20px 0px;
+    }
+    .header__logo {
+        opacity: 30%;
     }
     .footer__logo {
         width: 20%;

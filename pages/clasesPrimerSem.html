@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Horarios Primer Semestre - FCEFyN</title>
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap" rel="stylesheet">
@@ -16,24 +16,24 @@
     <div class="container-fluid">
         <header class="row">
             <div class="row">
-                <img class="col-lg-3" src="../img/FCEFyN-negro_tagline.png" alt="Logo f" class="header__logo">
-                <h1 class="titles col-lg-7" id="Hheader">HORARIOS FACULTAD</h1>
+                <img class="col-lg-3 col-sm-12 col-xs-12 header__logo" src="../img/FCEFyN-negro_tagline.png" alt="Logo f">
+                <h1 class="titles col-lg-7 col-sm-12 col-xs-12" id="Hheader">HORARIOS FACULTAD</h1>
             </div>
             <nav class="container">
                 <ul class="nav__menu">
-                    <a href="../index.html" id="no_a">
+                    <a href="../index.html" class="no__a">
                         <li>Inicio</li>
                     </a>
-                    <a href="./clasesPrimerSem.html" id="no_a">
-                        <li>Clases Primer Semestre</li>
+                    <a href="./clasesPrimerSem.html" class="no__a">
+                        <li>Horarios Primer Semestre</li>
                     </a>
-                    <a href="./clasesSegundoSem.html" id="no_a">
-                        <li>Clases Segundo Semestre</li>
+                    <a href="./clasesSegundoSem.html" class="no__a">
+                        <li>Horarios Segundo Semestre</li>
                     </a>
-                    <a href="./examenes.html" id="no_a">
+                    <a href="./examenes.html" class="no__a">
                         <li>Examenes</li>
                     </a>
-                    <a href="./contacto.html" id="no_a">
+                    <a href="./contacto.html" class="no__a">
                         <li>Contacto</li>
                     </a>
                 </ul>
@@ -43,9 +43,12 @@
         <div class="row">
             <aside class="col-lg-3">
                 <ul class="aside__menu">
-                    <li><a href="#10-04020" id="no_a">Electronica Digital II (10-04020)</a></li>
-                    <li><a href="#10-07417" id="no_a">Ingenieria del Software (10-07417)</a></li>
-                    <li><a href="#10-07409" id="no_a">Teoria de Redes (10-07409)</a></li>
+                    <li><a href="#10-04020" class="no__a">Electronica Digital II (10-04020)</a></li>
+                    <li><a href="#10-07417" class="no__a">Ingenieria del Software (10-07417)</a></li>
+                    <li><a href="#10-07409" class="no__a">Teoria de Redes (10-07409)</a></li>
+                    <li><a href="#10-07415" class="no__a">Programación Concurrente (10-07415)</a></li>
+                    <li><a href="#10-07418" class="no__a">Comunicaciones Digitales (10-07418)</a></li>
+                    <li><a href="#10-07428" class="no__a">Sistemas Operaticos II (10-07428)</a></li>
                 </ul>
             </aside>
             <section class="col-lg-9">
@@ -54,7 +57,7 @@
                     <h3 class="nombresMaterias">Electronica Digital II (10-04020)</h3>
                     <table>
                         <tr>
-                            <th>Comisión/Día</th>
+                            <th class="primera">Comisión/Día</th>
                             <th>Lunes</th>
                             <th>Martes</th>
                             <th>Miércoles</th>
@@ -120,6 +123,81 @@
                             <td></td>
                             <td></td>
                             <td></td>
+                            <td></td>
+                            <td>Docente1<br>Docente2</td>
+                        </tr>
+                    </table>
+                </article>
+                <article id="10-07415">
+                    <h3 class="nombresMaterias">Programación Concurrente (10-07415)</h3>
+                    <table>
+                        <tr>
+                            <th>Comisión/Día</th>
+                            <th>Lunes</th>
+                            <th>Martes</th>
+                            <th>Miércoles</th>
+                            <th>Jueves</th>
+                            <th>Viernes</th>
+                            <th>Sábado</th>
+                            <th>Docentes</th>
+                        </tr>
+                        <tr>
+                            <td>Comun 1.1</td>
+                            <td></td>
+                            <td>16:00hs a 21:00hs<br>Aula:112(CU)</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Docente1<br>Docente2</td>
+                        </tr>
+                    </table>
+                </article>
+                <article id="10-07418">
+                    <h3 class="nombresMaterias">Comunicaciones Digitales (10-07418)</h3>
+                    <table>
+                        <tr>
+                            <th>Comisión/Día</th>
+                            <th>Lunes</th>
+                            <th>Martes</th>
+                            <th>Miércoles</th>
+                            <th>Jueves</th>
+                            <th>Viernes</th>
+                            <th>Sábado</th>
+                            <th>Docentes</th>
+                        </tr>
+                        <tr>
+                            <td>Comun 1.1</td>
+                            <td></td>
+                            <td></td>
+                            <td>08:30hs a 12:30hs<br>Aula:500(CU)</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Docente1<br>Docente2</td>
+                        </tr>
+                    </table>
+                </article>
+                <article id="10-07428">
+                    <h3 class="nombresMaterias">Sistemas Operaticos II (10-07428)</h3>
+                    <table>
+                        <tr>
+                            <th>Comisión/Día</th>
+                            <th>Lunes</th>
+                            <th>Martes</th>
+                            <th>Miércoles</th>
+                            <th>Jueves</th>
+                            <th>Viernes</th>
+                            <th>Sábado</th>
+                            <th>Docentes</th>
+                        </tr>
+                        <tr>
+                            <td>Comun 1.1</td>
+                            <td></td>
+                            <td></td>
+                            <td>18:00hs a 21:00hs<br>Aula:108(CU)</td>
+                            <td></td>
+                            <td>17:00hs a 20:00hs<br>Aula:108(CU)</td>
                             <td></td>
                             <td>Docente1<br>Docente2</td>
                         </tr>
