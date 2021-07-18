@@ -31,20 +31,11 @@ table {
     border-collapse: collapse;
     border: black 1px solid; }
 
-nav {
-  align-self: flex-end; }
-  nav .nav__menu {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    color: #2c5f66;
-    list-style-type: none;
-    font-family: 'Newsreader', serif;
-    font-size: 110%; }
-    nav .nav__menu li {
-      border: solid 1px black;
-      background-color: blanchedalmond;
-      padding: 10px 15px; }
+nav ul li {
+  border: solid 1px black;
+  background-color: blanchedalmond;
+  padding: 8px 15px;
+  margin: 0px 20px; }
 
 aside {
   background-color: #6AA84F;
@@ -60,13 +51,11 @@ aside {
 section {
   background-color: #FFD966;
   padding: 20px 10px;
-  border: 0.5px solid black; }
+  border: 0.5px solid black;
+  min-height: 445px; }
   section .titles {
     text-decoration: underline;
     font-size: 200%; }
-
-#index_section {
-  padding-bottom: 324px; }
 
 footer {
   background-color: #6AA84F;
@@ -90,7 +79,25 @@ iframe {
   outline: none;
   color: black; }
 
+#frente {
+  border: solid black 3px; }
+
+#patio {
+  border: solid black 3px;
+  width: 85%; }
+
+.in__text {
+  width: 30%; }
+
+textarea {
+  width: 50%;
+  height: 30%; }
+
 @media (max-width: 768px) {
+  * {
+    margin-right: 0px !important; }
+  #index_section img {
+    width: 100%; }
   #Hheader {
     position: absolute;
     padding: 20px 0px; }
@@ -100,6 +107,10 @@ iframe {
     width: 20%; } }
 
 @media (max-width: 992px) and (min-width: 769) {
+  * {
+    margin-right: 0px !important; }
+  #index_section img {
+    width: 100%; }
   #Hheader {
     position: absolute;
     padding: 20px 0px; }

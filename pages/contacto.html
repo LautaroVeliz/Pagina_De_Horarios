@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacto para horarios de la facultad de ciencias exactas, fisicas y naturales (FCEFyN)">
+    <meta name="keywords" content="HORARIOS, FCEFYN, FACULTAD DE CIENCIAS EXACTAS, UNC, CONTACTO">
     <title>Contacto Horarios - FCEFyN</title>
+
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap" rel="stylesheet">
@@ -19,24 +22,32 @@
                 <img class="col-lg-3 col-sm-12 col-xs-12 header__logo" src="../img/FCEFyN-negro_tagline.png" alt="Logo f">
                 <h1 class="titles col-lg-7 col-sm-12 col-xs-12" id="Hheader">HORARIOS FACULTAD</h1>
             </div>
-            <nav class="container">
-                <ul class="nav__menu">
-                    <a href="../index.html" class="no__a">
-                        <li>Inicio</li>
-                    </a>
-                    <a href="./clasesPrimerSem.html" class="no__a">
-                        <li>Horarios Primer Semestre</li>
-                    </a>
-                    <a href="./clasesSegundoSem.html" class="no__a">
-                        <li>Horarios Segundo Semestre</li>
-                    </a>
-                    <a href="./examenes.html" class="no__a">
-                        <li>Examenes</li>
-                    </a>
-                    <a href="./contacto.html" class="no__a">
-                        <li>Contacto</li>
-                    </a>
-                </ul>
+            <nav class="d-flex w-100 justify-content-center">
+
+                <nav class="navbar navbar-expand-lg navbar-light bg-light " style="background-color: transparent !important">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="../index.html" style="background-color: blanchedalmond !important; margin: 0 20px;">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="clasesPrimerSem.html" style="background-color: blanchedalmond !important; margin: 0 20px;">Horarios Primer Semestre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="clasesSegundoSem.html" style="background-color: blanchedalmond !important; margin: 0 20px;">Horarios Segundo Semestre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="examenes.html" style="background-color: blanchedalmond !important; margin: 0 20px;">Examenes</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="contacto.html" style="background-color: blanchedalmond !important; margin: 0 20px;">Contacto<span class="sr-only">(current)</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </nav>
             <br>
         </header>
@@ -47,9 +58,9 @@
                     la casilla correspondiente.</p>
                 <form action="#">
                     <label for="Nombre">Nombre y Apellido: </label>
-                    <input type="text"><br>
+                    <input class="in__text" type="text"><br>
                     <label for="email">Email:</label>
-                    <input type="email" placeholder="aaa@unc.edu.ar ó aaa@mi.unc.edu.ar" name="email"><br>
+                    <input class="in__text" type="email" placeholder="aaa@unc.edu.ar ó aaa@mi.unc.edu.ar" name="email"><br>
                     <label for="Mensaje"> Mensaje:</label><br>
                     <textarea></textarea><br>
                     <label for="Superpos">¿Tu mensaje es por una superposicion de horarios?: </label>
@@ -58,7 +69,7 @@
                     <select name="rango" id="rango"> 
 					<option value="alumno">Alumno</option>
 					<option value="docente">Docente</option>
-				</select><br><br><br>
+				</select><br><br>
                     <div>
                         <input type="submit" value="ENVIAR MENSAJE">
                         <input type="reset" value="LIMPIAR MENSAJE">
